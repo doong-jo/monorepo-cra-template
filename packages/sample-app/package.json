@@ -1,0 +1,12 @@
+{
+  "name": "@mono/react-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "../../scripts/start.sh",
+    "build": "../../scripts/build.sh",
+    "test": "../../scripts/test.sh",
+    "check-types": "tsc --p ./tsconfig.json --noEmit --skipLibCheck",
+    "lint": "eslint src --fix"
+  }
+}

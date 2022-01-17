@@ -1,0 +1,10 @@
+{
+  "name": "@mono/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "check-types": "tsc --p ./tsconfig.json --noEmit --skipLibCheck",
+    "lint": "eslint src --fix"
+  }
+}
