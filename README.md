@@ -29,6 +29,11 @@ npm run start
 npm run start --workspace=@mono/$YOUR_PACKAGE
 ```
 
+### Modify CRA settings
+
+You can be modified using `craco.config.js`.
+See the [craco documentation](https://github.com/gsoft-inc/craco/blob/master/packages/craco/README.md).
+
 ## Stack
 
 ### Main
